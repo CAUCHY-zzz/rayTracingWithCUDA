@@ -1,0 +1,27 @@
+# Visual Studio and CUDA build output
+.vs/
+**/x64/
+**/Debug/
+**/Release/
+*.user
+*.suo
+*.pdb
+*.idb
+*.ilk
+*.tlog
+*.cache
+*.iobj
+*.ipdb
+*.exe
+*.dll
+*.log
+**/log.txt
+
+# Generated images and videos
+rayTracingWithCUDA/frame/*.bmp
+rayTracingWithCUDA/picture/*
+!rayTracingWithCUDA/picture/.gitkeep
+rayTracingWithCUDA/output.bmp
+rayTracingWithCUDA/output.mp4
+
+# Keep obj/ and *.obj: these are 3D models, not compiler intermediates.
